@@ -3,8 +3,7 @@ import classes from '../styles/Home.module.css'
 import { Footer } from '../components/Footer/Footer'
 import { Main } from '../components/Main/Main'
 
-
-export default function Home() {
+export default function about() {
   return (
     <div className={classes.container}>
       <Head>
@@ -13,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Main page={"index"}/>
+      <Main page={"about"}/>
 
       <Footer />
     </div>
