@@ -1,5 +1,6 @@
+import React from 'react'
 import Image from 'next/image'
-import classes from '../Headline/Headline.module.css'
+import classes from '../Footer/Footer.module.css'
 
 export  function Footer() {
   return (

@@ -1,6 +1,5 @@
-import classes from '../Footer/Footer.module.css'
-
-
+import React from 'react'
+import classes from '../Headline/Headline.module.css'
 
 export function Headline(props) {
   console.log(props);
